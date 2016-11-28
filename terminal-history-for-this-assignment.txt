@@ -1,0 +1,596 @@
+josiahs-MacBook-Pro:Projects sparatan117$ git clone git@github.com:beefflavor/terminal-velocity.git
+Cloning into 'terminal-velocity'...
+Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Checking connectivity... done.
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cd terminal-velocity/
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls -al
+total 8
+drwxr-xr-x   4 sparatan117  staff   136 Nov 28 13:04 .
+drwxr-xr-x   3 sparatan117  staff   102 Nov 28 13:04 ..
+drwxr-xr-x  12 sparatan117  staff   408 Nov 28 13:04 .git
+-rw-r--r--   1 sparatan117  staff  2443 Nov 28 13:04 README.md
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd
+josiahs-MacBook-Pro:~ sparatan117$ ls
+Applications			Library				Samsung				phone pictures
+Creative Cloud Files		Movies				blackjack.py			random.dat
+Desktop				Music				day1.iml			sandbox
+Documents			Pictures			jagex_cl_oldschool_LIVE.dat	src
+Downloads			Projects			jagex_cl_runescape_LIVE.dat
+Dropbox				Public				jagexappletviewer.preferences
+IdeaProjects			PycharmProjects			jagexcache
+josiahs-MacBook-Pro:~ sparatan117$ cd Projects/
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ ls -al
+total 0
+drwxr-xr-x   3 sparatan117  staff   102 Nov 28 13:04 .
+drwxr-xr-x+ 56 sparatan117  staff  1904 Nov 28 13:02 ..
+drwxr-xr-x   4 sparatan117  staff   136 Nov 28 13:04 terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cat terminal-velocity > list-projects-directory.txt
+cat: terminal-velocity: Is a directory
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cat joke.txt
+cat: joke.txt: No such file or directory
+josiahs-MacBook-Pro:Projects sparatan117$ vi joke.txt
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cd joke.txt
+-bash: cd: joke.txt: Not a directory
+josiahs-MacBook-Pro:Projects sparatan117$ cat joke.txt
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ atom joke.txt
+josiahs-MacBook-Pro:Projects sparatan117$ cd terminal-velocity/
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cat jokes.txt > terminal-velocity
+cat: jokes.txt: No such file or directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man ls
+josiahs-MacBook-Pro:terminal-velocity sparatan117$
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md		terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md		terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd
+josiahs-MacBook-Pro:~ sparatan117$ ls
+Applications			Library				Samsung				phone pictures
+Creative Cloud Files		Movies				blackjack.py			random.dat
+Desktop				Music				day1.iml			sandbox
+Documents			Pictures			jagex_cl_oldschool_LIVE.dat	src
+Downloads			Projects			jagex_cl_runescape_LIVE.dat
+Dropbox				Public				jagexappletviewer.preferences
+IdeaProjects			PycharmProjects			jagexcache
+josiahs-MacBook-Pro:~ sparatan117$ cd Projects/
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cp joke.txt terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cd terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md		joke.txt		terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd
+josiahs-MacBook-Pro:~ sparatan117$ ls
+Applications			Library				Samsung				phone pictures
+Creative Cloud Files		Movies				blackjack.py			random.dat
+Desktop				Music				day1.iml			sandbox
+Documents			Pictures			jagex_cl_oldschool_LIVE.dat	src
+Downloads			Projects			jagex_cl_runescape_LIVE.dat
+Dropbox				Public				jagexappletviewer.preferences
+IdeaProjects			PycharmProjects			jagexcache
+josiahs-MacBook-Pro:~ sparatan117$ cd Projects/
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cp list-projects-directory.txt terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cd terminal-velocity/
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd termial-velocity
+-bash: cd: termial-velocity: No such file or directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd terminal-velocity
+-bash: cd: terminal-velocity: Not a directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ;d
+-bash: syntax error near unexpected token `;'
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd
+josiahs-MacBook-Pro:~ sparatan117$ cd Projects/
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ rm joke.txt
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ rm list-projects-directory.txt
+josiahs-MacBook-Pro:Projects sparatan117$ ls
+terminal-velocity
+josiahs-MacBook-Pro:Projects sparatan117$ cd terminal-velocity/
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cd terminal-velocity
+-bash: cd: terminal-velocity: Not a directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ rm terminal-velocity
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls -al
+total 8
+drwxr-xr-x   6 sparatan117  staff   204 Nov 28 13:49 .
+drwxr-xr-x   4 sparatan117  staff   136 Nov 28 13:48 ..
+drwxr-xr-x  12 sparatan117  staff   408 Nov 28 13:04 .git
+-rw-r--r--   1 sparatan117  staff  2443 Nov 28 13:04 README.md
+-rw-r--r--   1 sparatan117  staff     0 Nov 28 13:45 joke.txt
+-rw-r--r--   1 sparatan117  staff     0 Nov 28 13:47 list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ rm joke.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ atom joke.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cat list-projects-directory.txt > workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man ls
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ help
+GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin16)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ JOB_SPEC [&]                       (( expression ))
+ . filename [arguments]             :
+ [ arg... ]                         [[ expression ]]
+ alias [-p] [name[=value] ... ]     bg [job_spec ...]
+ bind [-lpvsPVS] [-m keymap] [-f fi break [n]
+ builtin [shell-builtin [arg ...]]  caller [EXPR]
+ case WORD in [PATTERN [| PATTERN]. cd [-L|-P] [dir]
+ command [-pVv] command [arg ...]   compgen [-abcdefgjksuv] [-o option
+ complete [-abcdefgjksuv] [-pr] [-o continue [n]
+ declare [-afFirtx] [-p] [name[=val dirs [-clpv] [+N] [-N]
+ disown [-h] [-ar] [jobspec ...]    echo [-neE] [arg ...]
+ enable [-pnds] [-a] [-f filename]  eval [arg ...]
+ exec [-cl] [-a name] file [redirec exit [n]
+ export [-nf] [name[=value] ...] or false
+ fc [-e ename] [-nlr] [first] [last fg [job_spec]
+ for NAME [in WORDS ... ;] do COMMA for (( exp1; exp2; exp3 )); do COM
+ function NAME { COMMANDS ; } or NA getopts optstring name [arg]
+ hash [-lr] [-p pathname] [-dt] [na help [-s] [pattern ...]
+ history [-c] [-d offset] [n] or hi if COMMANDS; then COMMANDS; [ elif
+ jobs [-lnprs] [jobspec ...] or job kill [-s sigspec | -n signum | -si
+ let arg [arg ...]                  local name[=value] ...
+ logout                             popd [+N | -N] [-n]
+ printf [-v var] format [arguments] pushd [dir | +N | -N] [-n]
+ pwd [-LP]                          read [-ers] [-u fd] [-t timeout] [
+ readonly [-af] [name[=value] ...]  return [n]
+ select NAME [in WORDS ... ;] do CO set [--abefhkmnptuvxBCHP] [-o opti
+ shift [n]                          shopt [-pqsu] [-o long-option] opt
+ source filename [arguments]        suspend [-f]
+ test [expr]                        time [-p] PIPELINE
+ times                              trap [-lp] [arg signal_spec ...]
+ true                               type [-afptP] name [name ...]
+ typeset [-afFirtx] [-p] name[=valu ulimit [-SHacdfilmnpqstuvx] [limit
+ umask [-p] [-S] [mode]             unalias [-a] name [name ...]
+ unset [-f] [-v] [name ...]         until COMMANDS; do COMMANDS; done
+ variables - Some variable names an wait [n]
+ while COMMANDS; do COMMANDS; done  { COMMANDS ; }
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ help date
+-bash: help: no help topics match `date'.  Try `help help' or `man -k date' or `info date'.
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ info date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man ls
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date [-jru] [-r seconds|date.txt]
+-bash: date.txt]: command not found
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date [-r seconds|date.txt]
+-bash: date.txt]: command not found
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date[-r seconds|date.txt]
+-bash: date[-r seconds|date.txt]: command not found
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date [-r seconds|date.txt]
+-bash: date.txt]: command not found
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date "-r seconds|date.txt"
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r%S
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ -r seconds
+-bash: -r: command not found
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date '+%A'
+Monday
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date '-r seconds'
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r 'seconds'
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -jnRu -r seconds
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date
+Mon Nov 28 14:33:50 PST 2016
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r %S
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date %S
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date '-r seconds'
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date '-r'
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date '-r'date
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r "seconds"
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r ""
+Wed Dec 31 16:00:00 PST 1969
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r "%s"
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r "%S"
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r ""
+Wed Dec 31 16:00:00 PST 1969
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r "ss"
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date ss
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date "ss"
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r "(00:00:00 UTC, January 1, 1970; see time(3))"
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+failed MSpanList_Insert 0x2d6000 0x1ad9231d051f9 0x0
+fatal error: MSpanList_Insert
+
+runtime stack:
+runtime.throw(0x279a4b)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/panic.go:491 +0xad fp=0x7fff5fbff790 sp=0x7fff5fbff760
+runtime.MSpanList_Insert(0x298e28, 0x2d6000)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mheap.c:692 +0x8f fp=0x7fff5fbff7b8 sp=0x7fff5fbff790
+MHeap_FreeSpanLocked(0x295a20, 0x2d6000, 0x100)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mheap.c:583 +0x163 fp=0x7fff5fbff7f8 sp=0x7fff5fbff7b8
+MHeap_Grow(0x295a20, 0x8, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mheap.c:420 +0x1a8 fp=0x7fff5fbff838 sp=0x7fff5fbff7f8
+MHeap_AllocSpanLocked(0x295a20, 0x1, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mheap.c:298 +0x365 fp=0x7fff5fbff878 sp=0x7fff5fbff838
+mheap_alloc(0x295a20, 0x1, 0x12, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mheap.c:190 +0x121 fp=0x7fff5fbff8a0 sp=0x7fff5fbff878
+runtime.MHeap_Alloc(0x295a20, 0x1, 0x10000000012, 0x1f2e9)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mheap.c:240 +0x66 fp=0x7fff5fbff8d8 sp=0x7fff5fbff8a0
+MCentral_Grow(0x29d798, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mcentral.c:197 +0x8b fp=0x7fff5fbff940 sp=0x7fff5fbff8d8
+runtime.MCentral_CacheSpan(0x29d798, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mcentral.c:85 +0x167 fp=0x7fff5fbff978 sp=0x7fff5fbff940
+runtime.MCache_Refill(0x2d2000, 0x12, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/mcache.c:90 +0xa0 fp=0x7fff5fbff9a0 sp=0x7fff5fbff978
+runtime.mcacheRefill_m()
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/malloc.c:368 +0x57 fp=0x7fff5fbff9c0 sp=0x7fff5fbff9a0
+runtime.onM(0x1f3ff8)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/asm_amd64.s:273 +0x9a fp=0x7fff5fbff9c8 sp=0x7fff5fbff9c0
+runtime.mallocgc(0x120, 0x198de0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/malloc.go:178 +0x849 fp=0x7fff5fbffa78 sp=0x7fff5fbff9c8
+runtime.newobject(0x198de0, 0x2d2000)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/malloc.go:353 +0x49 fp=0x7fff5fbffaa0 sp=0x7fff5fbffa78
+runtime.newG(0x3645a)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/proc.go:233 +0x2a fp=0x7fff5fbffab8 sp=0x7fff5fbffaa0
+allocg(0x288380)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/proc.c:925 +0x1f fp=0x7fff5fbffac8 sp=0x7fff5fbffab8
+runtime.malg(0x8000, 0x288420)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/proc.c:2106 +0x1f fp=0x7fff5fbffaf8 sp=0x7fff5fbffac8
+runtime.mpreinit(0x2887e0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/os_darwin.c:137 +0x27 fp=0x7fff5fbffb10 sp=0x7fff5fbffaf8
+mcommoninit(0x2887e0)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/proc.c:201 +0xc9 fp=0x7fff5fbffb38 sp=0x7fff5fbffb10
+runtime.schedinit()
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/proc.c:138 +0x55 fp=0x7fff5fbffb60 sp=0x7fff5fbffb38
+runtime.rt0_go(0x7fff5fbffb90, 0x3, 0x7fff5fbffb90, 0x0, 0x3, 0x7fff5fbffcb0, 0x7fff5fbffcb7, 0x7fff5fbffcbe, 0x0, 0x7fff5fbffcc3, ...)
+	/usr/local/Cellar/go/1.4.2/libexec/src/runtime/asm_amd64.s:95 +0x116 fp=0x7fff5fbffb68 sp=0x7fff5fbffb60
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r (00:00:00 UTC, January 1, 1970; see time(3))
+-bash: syntax error near unexpected token `('
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r '00:00:00 UTC, January 1, 1970; see time(3)'
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date[-r seconds]
+-bash: date[-r seconds]: command not found
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date [-r seconds]
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man date
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r 'date.txt'
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r date.txt
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r date.txt
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ atom date.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ atom date.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			workingDirectory.txt
+date.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r date.txt
+Mon Nov 28 14:50:15 PST 2016
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds date.txt
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r date.txt
+Mon Nov 28 14:50:15 PST 2016
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date -r seconds > date.txt
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			workingDirectory.txt
+date.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ rm date.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ touch date.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			workingDirectory.txt
+date.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date +%s date.txt
+date: illegal time format
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date +%s
+1480374487
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date +%s
+1480374493
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date +%s
+1480374496
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date +%s < date.txt
+1480374642
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			workingDirectory.txt
+date.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ date +%s > date.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			workingDirectory.txt
+date.txt			list-projects-directory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls*.txt
+-bash: ls*.txt: command not found
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls *.txt
+date.txt			joke.txt			list-projects-directory.txt	workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ *.txt > list-of-txt-files.txt
+-bash: date.txt: command not found
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls *.txt > list-of-txt-files.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt
+date.txt			list-of-txt-files.txt		workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man
+What manual page do you want?
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls man
+ls: man: No such file or directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls man
+ls: man: No such file or directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man ls
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ man -d
+Reading config file /private/etc/man.conf
+Looked whether there exists a message catalog man, but there is none
+(and for English messages none is needed)
+
+found man directory /usr/share/man
+found man directory /usr/local/share/man
+found man directory /usr/X11/man
+found manpath map /bin --> /usr/share/man
+found manpath map /sbin --> /usr/share/man
+found manpath map /usr/bin --> /usr/share/man
+found manpath map /usr/sbin --> /usr/share/man
+found manpath map /usr/local/bin --> /usr/local/share/man
+found manpath map /usr/local/sbin --> /usr/local/share/man
+found manpath map /usr/X11/bin --> /usr/X11/man
+found manpath map /usr/bin/X11 --> /usr/X11/man
+found manpath map /usr/bin/mh --> /usr/share/man
+
+using /usr/bin/less -is as pager
+
+using /usr/bin/less -is as browser
+
+using /bin/cat to dump HTML pages as textWhat manual page do you want?
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ which java
+/usr/bin/java
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ which javac
+/usr/bin/javac
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ which java which javac > where-is-my-java.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ which java javac > where-is-my-java.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ host
+Usage: host [-aCdlriTwv] [-c class] [-N ndots] [-t type] [-W time]
+            [-R number] [-m flag] hostname [server]
+       -a is equivalent to -v -t ANY
+       -c specifies query class for non-IN data
+       -C compares SOA records on authoritative nameservers
+       -d is equivalent to -v
+       -l lists all hosts in a domain, using AXFR
+       -i IP6.INT reverse lookups
+       -N changes the number of dots allowed before root lookup is done
+       -r disables recursive processing
+       -R specifies number of retries for UDP packets
+       -s a SERVFAIL response should stop query
+       -t specifies the query type
+       -T enables TCP/IP mode
+       -v enables verbose output
+       -w specifies to wait forever for a reply
+       -W specifies how long to wait for a reply
+       -4 use IPv4 query transport only
+       -6 use IPv6 query transport only
+       -m set memory debugging flag (trace|record|usage)
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			joke.txt			list-projects-directory.txt	workingDirectory.txt
+date.txt			list-of-txt-files.txt		where-is-my-java.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls -al
+total 40
+drwxr-xr-x  10 sparatan117  staff   340 Nov 28 15:39 .
+drwxr-xr-x   4 sparatan117  staff   136 Nov 28 13:48 ..
+drwxr-xr-x  12 sparatan117  staff   408 Nov 28 13:04 .git
+-rw-r--r--   1 sparatan117  staff  2443 Nov 28 13:04 README.md
+-rw-r--r--   1 sparatan117  staff    11 Nov 28 15:13 date.txt
+-rw-r--r--   1 sparatan117  staff    53 Nov 28 13:54 joke.txt
+-rw-r--r--   1 sparatan117  staff    89 Nov 28 15:17 list-of-txt-files.txt
+-rw-r--r--   1 sparatan117  staff     0 Nov 28 13:47 list-projects-directory.txt
+-rw-r--r--   1 sparatan117  staff    29 Nov 28 15:40 where-is-my-java.txt
+-rw-r--r--   1 sparatan117  staff     0 Nov 28 14:00 workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls hosts
+ls: hosts: No such file or directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls host
+ls: host: No such file or directory
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cp /etc/hosts hosts
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ ls
+README.md			hosts				list-of-txt-files.txt		where-is-my-java.txt
+date.txt			joke.txt			list-projects-directory.txt	workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ cat /etc/hosts
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	date.txt
+	hosts
+	joke.txt
+	list-of-txt-files.txt
+	list-projects-directory.txt
+	where-is-my-java.txt
+	workingDirectory.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ git add termial-velocity
+fatal: pathspec 'termial-velocity' did not match any files
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ git add .
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   date.txt
+	new file:   hosts
+	new file:   joke.txt
+	new file:   list-of-txt-files.txt
+	new file:   list-projects-directory.txt
+	new file:   where-is-my-java.txt
+	new file:   workingDirectory.txt
+
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ git commit -m "terminal velocity homework"
+[master c08d1ed] terminal velocity homework
+ Committer: josiah lewis mckinney <sparatan117@josiahs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 18 insertions(+)
+ create mode 100644 date.txt
+ create mode 100644 hosts
+ create mode 100644 joke.txt
+ create mode 100644 list-of-txt-files.txt
+ create mode 100644 list-projects-directory.txt
+ create mode 100644 where-is-my-java.txt
+ create mode 100644 workingDirectory.txt
+josiahs-MacBook-Pro:terminal-velocity sparatan117$ 
