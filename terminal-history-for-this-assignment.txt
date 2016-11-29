@@ -1,0 +1,549 @@
+Darions-MacBook-Pro:~ darionmoore$ whoami
+darionmoore
+Darions-MacBook-Pro:~ darionmoore$ pwd
+/Users/darionmoore
+Darions-MacBook-Pro:~ darionmoore$ ls
+Applications		Documents		GreedOrDie.pub		Music			PycharmProjects		quit.pub
+Creative Cloud Files	Downloads		Library			Pictures		python_projects.py
+Desktop			GreedOrDie		Movies			Public			quit
+Darions-MacBook-Pro:~ darionmoore$ ls -al
+total 96
+drwxr-xr-x+  33 darionmoore  staff   1122 Nov 27 17:47 .
+drwxr-xr-x    5 root         admin    170 Oct 13 13:11 ..
+-r--------    1 darionmoore  staff      7 Oct 13 13:15 .CFUserTextEncoding
+-rw-r--r--@   1 darionmoore  staff  10244 Nov 27 14:30 .DS_Store
+drwx------    3 darionmoore  staff    102 Nov 25 18:19 .Trash
+drwxr-xr-x   13 darionmoore  staff    442 May 17  2016 .atom
+-rw-r--r--    1 darionmoore  staff   1951 Nov 28 09:52 .bash_history
+-rw-r--r--    1 darionmoore  staff    167 Mar  9  2016 .bash_profile
+drwx------   90 darionmoore  staff   3060 Nov 28 09:52 .bash_sessions
+drwxr-xr-x    3 darionmoore  staff    102 Nov  5 14:55 .config
+drwx------    3 darionmoore  staff    102 May 15  2016 .cups
+-rw-r--r--    1 darionmoore  staff     56 Nov  5 14:56 .gitconfig
+-rw-r--r--    1 darionmoore  staff     32 Nov 27 17:47 .gitignore_global
+drwxr-xr-x    3 darionmoore  staff    102 Mar  9  2016 .idlerc
+drwxr-xr-x    2 darionmoore  staff     68 Mar 30  2016 .matplotlib
+drwxr-xr-x    4 darionmoore  staff    136 Jul 30 10:00 .oracle_jre_usage
+drwx------    5 darionmoore  staff    170 Nov  5 14:56 .ssh
+drwx------@   3 darionmoore  staff    102 Nov  6 10:20 Applications
+drwxrwxr-x@   3 darionmoore  staff    102 Aug  2 17:52 Creative Cloud Files
+drwx------+   8 darionmoore  staff    272 Nov  6 10:18 Desktop
+drwx------+  17 darionmoore  staff    578 Nov  7 09:32 Documents
+drwx------+ 165 darionmoore  staff   5610 Nov 26 20:33 Downloads
+-rw-------    1 darionmoore  staff   1679 Nov 25 11:02 GreedOrDie
+-rw-r--r--    1 darionmoore  staff    419 Nov 25 11:02 GreedOrDie.pub
+drwx------@  63 darionmoore  staff   2142 Nov  6 10:20 Library
+drwx------+   3 darionmoore  staff    102 Feb  9  2016 Movies
+drwx------+   4 darionmoore  staff    136 Feb 13  2016 Music
+drwx------+  12 darionmoore  staff    408 Sep 19 11:44 Pictures
+drwxr-xr-x+   5 darionmoore  staff    170 Feb  9  2016 Public
+drwxr-xr-x    3 darionmoore  staff    102 Mar 30  2016 PycharmProjects
+drwxr-xr-x    3 darionmoore  staff    102 Mar 30  2016 python_projects.py
+-rw-------    1 darionmoore  staff   1679 Nov 23 16:30 quit
+-rw-r--r--    1 darionmoore  staff    419 Nov 23 16:30 quit.pub
+Darions-MacBook-Pro:~ darionmoore$ cd
+Darions-MacBook-Pro:~ darionmoore$ man ls
+Darions-MacBook-Pro:~ darionmoore$ cat .gitignore_global
+build/
+.idea/
+.DS_Store
+*.class
+Darions-MacBook-Pro:~ darionmoore$ cat /etc/hosts
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+Darions-MacBook-Pro:~ darionmoore$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+Darions-MacBook-Pro:~ darionmoore$ Projects
+-bash: Projects: command not found
+Darions-MacBook-Pro:~ darionmoore$ mkdir Projects
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ git clone git@github.com:GreedOrDie/terminal-velocity.git
+Cloning into 'terminal-velocity'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Darions-MacBook-Pro:Projects darionmoore$ ls
+terminal-velocity
+Darions-MacBook-Pro:Projects darionmoore$ cd terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Darions-MacBook-Pro:terminal-velocity darionmoore$ terminal-velocity > Projects
+-bash: terminal-velocity: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cd Projects
+-bash: cd: Projects: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ mkdr Projects
+-bash: mkdr: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ mkdir Projects
+mkdir: Projects: File exists
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cd Projects
+-bash: cd: Projects: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls -al
+total 8
+drwxr-xr-x   5 darionmoore  staff   170 Nov 28 13:10 .
+drwxr-xr-x   4 darionmoore  staff   136 Nov 28 11:26 ..
+drwxr-xr-x  12 darionmoore  staff   408 Nov 28 10:53 .git
+-rw-r--r--   1 darionmoore  staff     0 Nov 28 13:10 Projects
+-rw-r--r--   1 darionmoore  staff  2443 Nov 28 10:44 README.md
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cd Projects
+-bash: cd: Projects: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd
+/Users/darionmoore/Projects/terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cd
+Darions-MacBook-Pro:~ darionmoore$ Projects
+-bash: Projects: command not found
+Darions-MacBook-Pro:~ darionmoore$ open Projects
+Darions-MacBook-Pro:~ darionmoore$ pwd
+/Users/darionmoore
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ git clone git@github.com:GreedOrDie/terminal-velocity.git
+fatal: destination path 'terminal-velocity' already exists and is not an empty directory.
+Darions-MacBook-Pro:Projects darionmoore$ ls
+terminal-velocity	untitled
+Darions-MacBook-Pro:Projects darionmoore$ ls > list-projects-directory.txt
+Darions-MacBook-Pro:Projects darionmoore$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ pwd
+/Users/darionmoore/Projects
+Darions-MacBook-Pro:Projects darionmoore$ ls
+list-projects-directory.txt	terminal-velocity		untitled
+Darions-MacBook-Pro:Projects darionmoore$ open terminal-velocity
+Darions-MacBook-Pro:Projects darionmoore$ cd terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls
+Projects	README.md	joke.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Projects
+	joke.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls
+Projects	README.md	joke.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp terminal-velocity workingDirectory.txt
+cp: terminal-velocity: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ mkdir workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp terminal-velocity workingDirectory.txt
+cp: terminal-velocity: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd
+/Users/darionmoore/Projects/terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cd workingDirectory.txt
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ cp terminal-velocity workingDirectory.txt
+cp: terminal-velocity: No such file or directory
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ ;s
+-bash: syntax error near unexpected token `;'
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ ls
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ ls -al
+total 0
+drwxr-xr-x  2 darionmoore  staff   68 Nov 28 13:31 .
+drwxr-xr-x  8 darionmoore  staff  272 Nov 28 13:32 ..
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ cd Projects
+-bash: cd: Projects: No such file or directory
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ ls -al
+total 0
+drwxr-xr-x  2 darionmoore  staff   68 Nov 28 13:31 .
+drwxr-xr-x  8 darionmoore  staff  272 Nov 28 13:32 ..
+Darions-MacBook-Pro:workingDirectory.txt darionmoore$ cd
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ cp terminal-velocity workingDirectory.txt
+cp: terminal-velocity is a directory (not copied).
+Darions-MacBook-Pro:Projects darionmoore$ ls -al
+total 32
+drwxr-xr-x   7 darionmoore  staff   238 Nov 28 13:22 .
+drwxr-xr-x+ 35 darionmoore  staff  1190 Nov 28 11:19 ..
+-rw-r--r--@  1 darionmoore  staff  6148 Nov 28 13:21 .DS_Store
+-rw-r--r--   1 darionmoore  staff    63 Nov 28 13:23 joke.txt
+-rw-r--r--   1 darionmoore  staff    55 Nov 28 13:19 list-projects-directory.txt
+drwxr-xr-x   8 darionmoore  staff   272 Nov 28 13:32 terminal-velocity
+drwxr-xr-x   5 darionmoore  staff   170 Nov 28 11:26 untitled
+Darions-MacBook-Pro:Projects darionmoore$ cd terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls -al
+total 32
+drwxr-xr-x   8 darionmoore  staff   272 Nov 28 13:32 .
+drwxr-xr-x   7 darionmoore  staff   238 Nov 28 13:22 ..
+-rw-r--r--@  1 darionmoore  staff  6148 Nov 28 13:32 .DS_Store
+drwxr-xr-x  12 darionmoore  staff   408 Nov 28 13:29 .git
+-rw-r--r--   1 darionmoore  staff     0 Nov 28 13:10 Projects
+-rw-r--r--   1 darionmoore  staff  2443 Nov 28 10:44 README.md
+-rw-r--r--   1 darionmoore  staff    63 Nov 28 13:24 joke.txt
+drwxr-xr-x   2 darionmoore  staff    68 Nov 28 13:31 workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ host
+Usage: host [-aCdlriTwv] [-c class] [-N ndots] [-t type] [-W time]
+            [-R number] [-m flag] hostname [server]
+       -a is equivalent to -v -t ANY
+       -c specifies query class for non-IN data
+       -C compares SOA records on authoritative nameservers
+       -d is equivalent to -v
+       -l lists all hosts in a domain, using AXFR
+       -i IP6.INT reverse lookups
+       -N changes the number of dots allowed before root lookup is done
+       -r disables recursive processing
+       -R specifies number of retries for UDP packets
+       -s a SERVFAIL response should stop query
+       -t specifies the query type
+       -T enables TCP/IP mode
+       -v enables verbose output
+       -w specifies to wait forever for a reply
+       -W specifies how long to wait for a reply
+       -4 use IPv4 query transport only
+       -6 use IPv6 query transport only
+       -m set memory debugging flag (trace|record|usage)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ host > terminal-velocity
+Usage: host [-aCdlriTwv] [-c class] [-N ndots] [-t type] [-W time]
+            [-R number] [-m flag] hostname [server]
+       -a is equivalent to -v -t ANY
+       -c specifies query class for non-IN data
+       -C compares SOA records on authoritative nameservers
+       -d is equivalent to -v
+       -l lists all hosts in a domain, using AXFR
+       -i IP6.INT reverse lookups
+       -N changes the number of dots allowed before root lookup is done
+       -r disables recursive processing
+       -R specifies number of retries for UDP packets
+       -s a SERVFAIL response should stop query
+       -t specifies the query type
+       -T enables TCP/IP mode
+       -v enables verbose output
+       -w specifies to wait forever for a reply
+       -W specifies how long to wait for a reply
+       -4 use IPv4 query transport only
+       -6 use IPv6 query transport only
+       -m set memory debugging flag (trace|record|usage)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp hosts terminal-velocity
+cp: hosts: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp cat/etc/hosts terminal-velocity
+cp: cat/etc/hosts: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ etc/hosts
+-bash: etc/hosts: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp hosts terminal-velocity
+cp: hosts: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Projects
+	joke.txt
+	terminal-velocity
+
+nothing added to commit but untracked files present (use "git add" to track)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ host
+Usage: host [-aCdlriTwv] [-c class] [-N ndots] [-t type] [-W time]
+            [-R number] [-m flag] hostname [server]
+       -a is equivalent to -v -t ANY
+       -c specifies query class for non-IN data
+       -C compares SOA records on authoritative nameservers
+       -d is equivalent to -v
+       -l lists all hosts in a domain, using AXFR
+       -i IP6.INT reverse lookups
+       -N changes the number of dots allowed before root lookup is done
+       -r disables recursive processing
+       -R specifies number of retries for UDP packets
+       -s a SERVFAIL response should stop query
+       -t specifies the query type
+       -T enables TCP/IP mode
+       -v enables verbose output
+       -w specifies to wait forever for a reply
+       -W specifies how long to wait for a reply
+       -4 use IPv4 query transport only
+       -6 use IPv6 query transport only
+       -m set memory debugging flag (trace|record|usage)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ hosts
+-bash: hosts: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd
+/Users/darionmoore/Projects/terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp  cat /etc/hosts terminal-velocity
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ open host
+The file /Users/darionmoore/Projects/terminal-velocity/host does not exist.
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp /etc/hosts/ terminal-velocity
+cp: /etc/hosts/: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ /etc/hosts/
+-bash: /etc/hosts/: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ etc/hosts
+-bash: etc/hosts: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ etc/hosts/
+-bash: etc/hosts/: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$  /etc/hosts/
+-bash: /etc/hosts/: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$  /etc/hosts
+-bash: /etc/hosts: Permission denied
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cat /etc/hosts
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+Darions-MacBook-Pro:terminal-velocity darionmoore$ /etc/hosts/
+-bash: /etc/hosts/: Not a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ~
+-bash: /Users/darionmoore: is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cd ~
+Darions-MacBook-Pro:~ darionmoore$ pwd
+/Users/darionmoore
+Darions-MacBook-Pro:~ darionmoore$ /etc/hosts/
+-bash: /etc/hosts/: Not a directory
+Darions-MacBook-Pro:~ darionmoore$ pwd
+/Users/darionmoore
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$
+Darions-MacBook-Pro:Projects darionmoore$ cp /etc/hosts/ terminal-velocity
+cp: /etc/hosts/: Not a directory
+Darions-MacBook-Pro:Projects darionmoore$ atom /etc/hosts
+Darions-MacBook-Pro:Projects darionmoore$ terminal-velocity /etc/hosts
+-bash: terminal-velocity: command not found
+Darions-MacBook-Pro:Projects darionmoore$ cd terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ terminal-velocity /etc/hosts
+-bash: terminal-velocity: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp /etc/hosts terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls
+Projects		README.md		joke.txt		terminal-velocity	workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp /etc/hosts terminal-velocity.hosts.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date -r date.txt
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date-r date.txt
+-bash: date-r: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date -r
+date: option requires an argument -- r
+usage: date [-jnRu] [-d dst] [-r seconds] [-t west] [-v[+|-]val[ymwdHMS]] ...
+            [-f fmt date | [[[mm]dd]HH]MM[[cc]yy][.ss]] [+format]
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date.txt date -r
+-bash: date.txt: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls
+Projects			joke.txt			terminal-velocity.hosts.txt
+README.md			terminal-velocity		workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cat date.txt
+cat: date.txt: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ mkdir date.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp date.txt terminal-velocity
+cp: date.txt is a directory (not copied).
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date -r date.txt
+Mon Nov 28 14:42:39 PST 2016
+Darions-MacBook-Pro:terminal-velocity darionmoore$ mkdir listOfTxtFiles.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls .txt
+ls: .txt: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls -al/txt
+ls: illegal option -- /
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls
+Projects			date.txt			listOfTxtFiles.txt		terminal-velocity.hosts.txt
+README.md			joke.txt			terminal-velocity		workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls /.txt
+ls: /.txt: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls -.txt
+ls: illegal option -- .
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cat .txt
+cat: .txt: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cat /.txt
+cat: /.txt: No such file or directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls *.txt
+joke.txt			terminal-velocity.hosts.txt
+
+date.txt:
+
+listOfTxtFiles.txt:
+
+workingDirectory.txt:
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls *.txt cp listOfTxtFies.txt
+ls: cp: No such file or directory
+ls: listOfTxtFies.txt: No such file or directory
+joke.txt			terminal-velocity.hosts.txt
+
+date.txt:
+
+listOfTxtFiles.txt:
+
+workingDirectory.txt:
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp ls *.txt listOfTxtFiles.txt
+cp: ls: No such file or directory
+cp: date.txt is a directory (not copied).
+cp: listOfTxtFiles.txt is a directory (not copied).
+cp: workingDirectory.txt is a directory (not copied).
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp *.txt listOfTxtFiles.txt
+cp: date.txt is a directory (not copied).
+cp: listOfTxtFiles.txt is a directory (not copied).
+cp: workingDirectory.txt is a directory (not copied).
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp *.txt >  listOfTxtFiles.txt
+-bash: listOfTxtFiles.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date +%s > date.txt
+-bash: date.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ rm date.txt
+rm: date.txt: is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cat  date.txt
+cat: date.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ rm date.txt
+rm: date.txt: is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls
+Projects			date.txt			listOfTxtFiles.txt		terminal-velocity.hosts.txt
+README.md			joke.txt			terminal-velocity		workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ rm date.txt
+rm: date.txt: is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ del date.txt
+-bash: del: command not found
+Darions-MacBook-Pro:terminal-velocity darionmoore$ rm -frv date.txt
+date.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date +%s > date.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Projects
+	date.txt
+	joke.txt
+	listOfTxtFiles.txt/
+	terminal-velocity
+	terminal-velocity.hosts.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls > listOfTxtFiles.txt
+-bash: listOfTxtFiles.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp ls
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp ls *txt > listOftxtFiles.txt
+-bash: listOftxtFiles.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp *.txt > listOfTxtFiles.txt
+-bash: listOfTxtFiles.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ open java
+The file /Users/darionmoore/Projects/terminal-velocity/java does not exist.
+Darions-MacBook-Pro:terminal-velocity darionmoore$ which java > where-is-my-java.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ which javac > where-is-my-java.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ which java javac > where-is-my-java.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd > workingDirectory.txt
+-bash: workingDirectory.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp  pwd > workingDirectory.txt
+-bash: workingDirectory.txt: Is a directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp wd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ rm -frv workingDirectory.txt
+workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ cp pwd > workingDirectory.txt
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd > workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git stage
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Projects
+	date.txt
+	joke.txt
+	listOfTxtFiles.txt/
+	terminal-velocity
+	terminal-velocity.hosts.txt
+	where-is-my-java.txt
+	workingDirectory.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git add .
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git add .Projects
+fatal: pathspec '.Projects' did not match any files
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git add /Projects
+fatal: /Projects: '/Projects' is outside repository
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Projects
+	new file:   date.txt
+	new file:   joke.txt
+	new file:   listOfTxtFiles.txt/joke.txt
+	new file:   listOfTxtFiles.txt/terminal-velocity.hosts.txt
+	new file:   terminal-velocity
+	new file:   terminal-velocity.hosts.txt
+	new file:   where-is-my-java.txt
+	new file:   workingDirectory.txt
+
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git commit -m "This is my initial commit for the Projects directory...I think"
+[master a9fc706] This is my initial commit for the Projects directory...I think
+ 9 files changed, 37 insertions(+)
+ create mode 100644 Projects
+ create mode 100644 date.txt
+ create mode 100644 joke.txt
+ create mode 100644 listOfTxtFiles.txt/joke.txt
+ create mode 100644 listOfTxtFiles.txt/terminal-velocity.hosts.txt
+ create mode 100644 terminal-velocity
+ create mode 100644 terminal-velocity.hosts.txt
+ create mode 100644 where-is-my-java.txt
+ create mode 100644 workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$
