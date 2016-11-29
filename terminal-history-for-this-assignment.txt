@@ -1,0 +1,187 @@
+Last login: Mon Nov 28 11:17:04 on ttys000
+Sajids-MacBook-Pro:~ strejolopez$ directory
+-bash: directory: command not found
+Sajids-MacBook-Pro:~ strejolopez$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	untitled
+Sajids-MacBook-Pro:~ strejolopez$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+Sajids-MacBook-Pro:~ strejolopez$ mkdir "Projects"
+Sajids-MacBook-Pro:~ strejolopez$
+Sajids-MacBook-Pro:~ strejolopez$ mkdir Projects
+mkdir: Projects: File exists
+Sajids-MacBook-Pro:~ strejolopez$ cd Projects
+Sajids-MacBook-Pro:Projects strejolopez$ git clone git@github.com:strejolopez/terminal-velocity.git
+Cloning into 'terminal-velocity'...
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Sajids-MacBook-Pro:Projects strejolopez$ ls
+terminal-velocity
+Sajids-MacBook-Pro:Projects strejolopez$ ls > list-projects-directory.txt
+Sajids-MacBook-Pro:Projects strejolopez$ ls > list-projects-directory
+Sajids-MacBook-Pro:Projects strejolopez$ ls
+list-projects-directory		terminal-velocity
+list-projects-directory.txt
+Sajids-MacBook-Pro:Projects strejolopez$ rm list-projects-directory
+Sajids-MacBook-Pro:Projects strejolopez$ ls
+list-projects-directory.txt	terminal-velocity
+Sajids-MacBook-Pro:Projects strejolopez$ cat
+
+
+q
+q
+ls
+ls
+:q
+:q
+Sajids-Macbook-Pro:Projects strejolopez$ ls
+Sajids-Macbook-Pro:Projects strejolopez$ ls
+ls
+ls
+ls
+ls
+clear
+clear
+Q
+Q
+^Z
+^Z
+l
+l
+^C
+^C
+sD
+sD
+^[[A^[[A^[[A^[[A
+
+^Z
+[1]+  Stopped                 cat
+Sajids-MacBook-Pro:Projects strejolopez$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Sajids-MacBook-Pro:Projects strejolopez$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Sajids-MacBook-Pro:Projects strejolopez$ atom joke.txt
+Sajids-MacBook-Pro:Projects strejolopez$ pwd
+/Users/strejolopez/Projects
+Sajids-MacBook-Pro:Projects strejolopez$ ls -al
+total 16
+drwxr-xr-x   5 strejolopez  staff  170 Nov 28 13:41 .
+drwxr-xr-x+ 24 strejolopez  staff  816 Nov 28 13:06 ..
+-rw-r--r--   1 strejolopez  staff   52 Nov 28 13:41 joke.txt
+-rw-r--r--   1 strejolopez  staff   46 Nov 28 13:20 list-projects-directory.txt
+drwxr-xr-x   4 strejolopez  staff  136 Nov 28 13:11 terminal-velocity
+Sajids-MacBook-Pro:Projects strejolopez$ pwd workingDirectory.txt
+/Users/strejolopez/Projects
+Sajids-MacBook-Pro:Projects strejolopez$ ls
+joke.txt			list-projects-directory.txt	terminal-velocity
+Sajids-MacBook-Pro:Projects strejolopez$ mv joke.txt terminal-velocity/joke.txt
+Sajids-MacBook-Pro:Projects strejolopez$ ls
+Sajids-MacBook-Pro:Projects strejolopez$ mv list-projects-directory.txt terminal-velocity/list-projects-directory.txt
+Sajids-MacBook-Pro:Projects strejolopez$ ls
+terminal-velocity
+Sajids-MacBook-Pro:Projects strejolopez$ cd terminal-velocity/
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls
+README.md			joke.txt			list-projects-directory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ pwd > workingDirectory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls
+README.md			list-projects-directory.txt
+joke.txt			workingDirectory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ cp /etc/hosts hosts
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls
+README.md			joke.txt			workingDirectory.txt
+hosts				list-projects-directory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ date
+Mon Nov 28 14:24:02 PST 2016
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ date
+Mon Nov 28 14:28:07 PST 2016
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ man date
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ date +%s
+1480372879
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ date +%s > date.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls
+README.md			hosts				list-projects-directory.txt
+date.txt			joke.txt			workingDirectory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ *txt
+-bash: date.txt: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ *txt.
+-bash: *txt.: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ * txt
+-bash: README.md: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ *.txt
+-bash: date.txt: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ * .txt
+-bash: README.md: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ * .txtfiles
+-bash: README.md: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls *.txt
+date.txt			list-projects-directory.txt
+joke.txt			workingDirectory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls *.txt > list-of-txt-files.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls
+README.md			joke.txt			workingDirectory.txt
+date.txt			list-of-txt-files.txt
+hosts				list-projects-directory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ which java
+/usr/bin/java
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ which javac
+/usr/bin/javac
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ Java: /usr/bin/java Javac:  /usr/bin/javac > where-is-my-java.txt
+-bash: Java:: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ Java: which java which javac  > where-is-my-java.txt
+-bash: Java:: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ Java: which java which javac > where-is-my-java.txt
+-bash: Java:: command not found
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ which java javac > where-is-my-java.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ ls
+README.md			joke.txt			where-is-my-java.txt
+date.txt			list-of-txt-files.txt		workingDirectory.txt
+hosts				list-projects-directory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ git add .
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   date.txt
+	new file:   hosts
+	new file:   joke.txt
+	new file:   list-of-txt-files.txt
+	new file:   list-projects-directory.txt
+	new file:   where-is-my-java.txt
+	new file:   workingDirectory.txt
+
+Sajids-MacBook-Pro:terminal-velocity strejolopez$ git commit -m "Here are all of my homework assignments, number 10 was the most difficult"
+[master 5e6d458] Here are all of my homework assignments, number 10 was the most difficult
+ Committer: Sajid Trejo <strejolopez@Sajids-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 21 insertions(+)
+ create mode 100644 date.txt
+ create mode 100644 hosts
+ create mode 100644 joke.txt
+ create mode 100644 list-of-txt-files.txt
+ create mode 100644 list-projects-directory.txt
+ create mode 100644 where-is-my-java.txt
+ create mode 100644 workingDirectory.txt
+Sajids-MacBook-Pro:terminal-velocity strejolopez$
