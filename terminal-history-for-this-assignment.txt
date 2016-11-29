@@ -1,0 +1,145 @@
+Lillians-MacBook-Pro:~ lbregula$ mkdir Projects
+Lillians-MacBook-Pro:~ lbregula$ ls
+Applications	Downloads	Movies		Projects
+Desktop		IdeaProjects	Music		Public
+Documents	Library		Pictures
+Lillians-MacBook-Pro:~ lbregula$ cd Projects
+Lillians-MacBook-Pro:Projects lbregula$ Projects ls
+-bash: Projects: command not found
+Lillians-MacBook-Pro:Projects lbregula$ ls Projects
+ls: Projects: No such file or directory
+Lillians-MacBook-Pro:Projects lbregula$ mkdir Projects
+Lillians-MacBook-Pro:Projects lbregula$ git clone git@github.com:lbr28/terminal-velocity.git
+Cloning into 'terminal-velocity'...
+The authenticity of host 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Lillians-MacBook-Pro:Projects lbregula$ ls
+Projects		terminal-velocity
+Lillians-MacBook-Pro:Projects lbregula$ terminal-velocity ls>list-prjects-directory.txt
+-bash: terminal-velocity: command not found
+Lillians-MacBook-Pro:Projects lbregula$ Projects > list-projects-directory.txt
+-bash: Projects: command not found
+Lillians-MacBook-Pro:Projects lbregula$ ls Projects > list-projects-directory.txt
+Lillians-MacBook-Pro:Projects lbregula$ ls
+Projects			list-projects-directory.txt
+list-prjects-directory.txt	terminal-velocity
+Lillians-MacBook-Pro:Projects lbregula$ cd terminal-velocity/
+Lillians-MacBook-Pro:terminal-velocity lbregula$ rm -r list-prjects-directory.txt
+rm: list-prjects-directory.txt: No such file or directory
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md
+Lillians-MacBook-Pro:terminal-velocity lbregula$ pwd
+/Users/lbregula/Projects/terminal-velocity
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls > list-projects-directory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-projects-directory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ cat list-projects-directory.txt
+README.md
+list-projects-directory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ atom joke.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls > workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-projects-directory.txt
+joke.txt			workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ cp /etc/hosts hosts
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-projects-directory.txt
+hosts				workingDirectory.txt
+joke.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ man date
+Lillians-MacBook-Pro:terminal-velocity lbregula$ man date
+Lillians-MacBook-Pro:terminal-velocity lbregula$ date +%s
+1480376096
+Lillians-MacBook-Pro:terminal-velocity lbregula$ date +%s > date.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			joke.txt
+date.txt			list-projects-directory.txt
+hosts				workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ *.txt > listOfTxtFiles.txt
+-bash: date.txt: command not found
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls *.txt > list-of-test-files.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-of-test-files.txt
+date.txt			list-projects-directory.txt
+hosts				listOfTxtFiles.txt
+joke.txt			workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls *.txt > list-of-text-files.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-of-text-files.txt
+date.txt			list-projects-directory.txt
+hosts				listOfTxtFiles.txt
+joke.txt			workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ which java javac > where-is-my-java.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-of-text-files.txt
+date.txt			list-projects-directory.txt
+hosts				where-is-my-java.txt
+joke.txt			workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ ls
+README.md			list-of-text-files.txt
+date.txt			list-projects-directory.txt
+hosts				where-is-my-java.txt
+joke.txt			workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ git add .
+Lillians-MacBook-Pro:terminal-velocity lbregula$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   date.txt
+	new file:   hosts
+	new file:   joke.txt
+	new file:   list-of-text-files.txt
+	new file:   list-projects-directory.txt
+	new file:   where-is-my-java.txt
+	new file:   workingDirectory.txt
+
+Lillians-MacBook-Pro:terminal-velocity lbregula$ git commit -m "Homework assign. Easiest tasks were: 1, 2, 4, 5, 8, 10+"
+[master 99da5fa] Homework assign. Easiest tasks were: 1, 2, 4, 5, 8, 10+
+ Committer: Lillian Regula <lbregula@Lillians-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 26 insertions(+)
+ create mode 100644 date.txt
+ create mode 100644 hosts
+ create mode 100644 joke.txt
+ create mode 100644 list-of-text-files.txt
+ create mode 100644 list-projects-directory.txt
+ create mode 100644 where-is-my-java.txt
+ create mode 100644 workingDirectory.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+Lillians-MacBook-Pro:terminal-velocity lbregula$ git push
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 984 bytes | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To github.com:lbr28/terminal-velocity.git
+   a4a2bc6..99da5fa  master -> master
+Lillians-MacBook-Pro:terminal-velocity lbregula$ atom terminal-history-for-this-assignment.txt
+Lillians-MacBook-Pro:terminal-velocity lbregula$ 
