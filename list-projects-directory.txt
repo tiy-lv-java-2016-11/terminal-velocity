@@ -1,7 +1,2 @@
-total 16
-drwxr-xr-x   6 melmo  staff   204 Nov 28 12:58 .
-drwxr-xr-x   3 melmo  staff   102 Nov 28 10:48 ..
-drwxr-xr-x  12 melmo  staff   408 Nov 28 10:53 .git
--rw-r--r--@  1 melmo  staff  2447 Nov 28 12:57 README.md
--rw-r--r--   1 melmo  staff    21 Nov 28 10:53 foo.txt
--rw-r--r--   1 melmo  staff     0 Nov 28 12:58 list-projects-directory.txt
+five-classes
+terminal-velocity
