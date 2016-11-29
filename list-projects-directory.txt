@@ -1,0 +1,13 @@
+total 112
+drwxr-xr-x  12 sparatan117  staff    408 Nov 28 15:56 .
+drwxr-xr-x  10 sparatan117  staff    340 Nov 29 12:41 ..
+drwxr-xr-x  13 sparatan117  staff    442 Nov 28 15:57 .git
+-rw-r--r--   1 sparatan117  staff   2443 Nov 28 13:04 README.md
+-rw-r--r--   1 sparatan117  staff     11 Nov 28 15:13 date.txt
+-rw-r--r--   1 sparatan117  staff    214 Nov 28 15:45 hosts
+-rw-r--r--   1 sparatan117  staff     53 Nov 28 13:54 joke.txt
+-rw-r--r--   1 sparatan117  staff     89 Nov 28 15:17 list-of-txt-files.txt
+-rw-r--r--   1 sparatan117  staff      0 Nov 29 14:40 list-projects-directory.txt
+-rw-r--r--   1 sparatan117  staff  32371 Nov 28 15:56 terminal-history-for-this-assignment.txt
+-rw-r--r--   1 sparatan117  staff     29 Nov 28 15:40 where-is-my-java.txt
+-rw-r--r--   1 sparatan117  staff      0 Nov 28 14:00 workingDirectory.txt
