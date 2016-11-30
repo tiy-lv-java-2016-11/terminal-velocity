@@ -1,0 +1,323 @@
+Last login: Tue Nov 29 08:31:22 on ttys000
+Darions-MacBook-Pro:~ darionmoore$ pwd
+/Users/darionmoore
+Darions-MacBook-Pro:~ darionmoore$ ls
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+GreedOrDie
+GreedOrDie.pub
+Library
+Movies
+Music
+Pictures
+Projects
+Public
+PycharmProjects
+list-projects-directory.txt
+python_projects.py
+quit
+quit.pub
+terminal-history-for-this-assignment.txt
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ ls
+CarExample			monopoly-layout
+five-classes			terminal-velocity
+joke.txt			untitled
+list-projects-directory.txt	untitled1
+Darions-MacBook-Pro:Projects darionmoore$ cd monopoly-layout
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.idea/
+	monopoly-layout.iml
+	src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git add monopoly-layout
+fatal: pathspec 'monopoly-layout' did not match any files
+Darions-MacBook-Pro:monopoly-layout darionmoore$ cd Projects
+-bash: cd: Projects: No such file or directory
+Darions-MacBook-Pro:monopoly-layout darionmoore$ ls
+README.md		monopoly.jpg
+monopoly-layout.iml	src
+Darions-MacBook-Pro:monopoly-layout darionmoore$ ~
+-bash: /Users/darionmoore: is a directory
+Darions-MacBook-Pro:monopoly-layout darionmoore$ cd ~
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ git add monopoly-layout
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ git list
+git: 'list' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	bisect
+	rev-list
+Darions-MacBook-Pro:Projects darionmoore$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ cd ~
+Darions-MacBook-Pro:~ darionmoore$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ ls
+CarExample			monopoly-layout
+five-classes			terminal-velocity
+joke.txt			untitled
+list-projects-directory.txt	untitled1
+Darions-MacBook-Pro:Projects darionmoore$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ git add
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Darions-MacBook-Pro:Projects darionmoore$ clear
+
+Darions-MacBook-Pro:Projects darionmoore$ ls
+CarExample			monopoly-layout
+five-classes			terminal-velocity
+joke.txt			untitled
+list-projects-directory.txt	untitled1
+Darions-MacBook-Pro:Projects darionmoore$ cd monopoly-layout
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.idea/
+	monopoly-layout.iml
+	src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git add .
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .idea/.name
+	new file:   .idea/compiler.xml
+	new file:   .idea/copyright/profiles_settings.xml
+	new file:   .idea/libraries/KotlinJavaRuntime.xml
+	new file:   .idea/misc.xml
+	new file:   .idea/modules.xml
+	new file:   .idea/vcs.xml
+	new file:   .idea/workspace.xml
+	new file:   monopoly-layout.iml
+	new file:   src/Bank.java
+	new file:   src/Cards.java
+	new file:   src/Player.java
+	new file:   src/Property/Property.java
+
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git commit -m "This is the first portion of tonights homework. Can't wait to hear how I did."
+[master 277ca3b] This is the first portion of tonights homework. Can't wait to hear how I did.
+ 13 files changed, 1089 insertions(+)
+ create mode 100644 .idea/.name
+ create mode 100644 .idea/compiler.xml
+ create mode 100644 .idea/copyright/profiles_settings.xml
+ create mode 100644 .idea/libraries/KotlinJavaRuntime.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 .idea/workspace.xml
+ create mode 100644 monopoly-layout.iml
+ create mode 100644 src/Bank.java
+ create mode 100644 src/Cards.java
+ create mode 100644 src/Player.java
+ create mode 100644 src/Property/Property.java
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git push
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (20/20), 8.82 KiB | 0 bytes/s, done.
+Total 20 (delta 0), reused 0 (delta 0)
+To github.com:GreedOrDie/monopoly-layout.git
+   3f16e95..277ca3b  master -> master
+Darions-MacBook-Pro:monopoly-layout darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Darions-MacBook-Pro:monopoly-layout darionmoore$ cd~
+-bash: cd~: command not found
+Darions-MacBook-Pro:monopoly-layout darionmoore$ cd ~
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ git clone git@github.com:GreedOrDie/terminal-velocity.git
+fatal: destination path 'terminal-velocity' already exists and is not an empty directory.
+Darions-MacBook-Pro:Projects darionmoore$ rm terminal-velocity
+rm: terminal-velocity: is a directory
+Darions-MacBook-Pro:Projects darionmoore$ rm -f terminal-velocity
+rm: terminal-velocity: is a directory
+Darions-MacBook-Pro:Projects darionmoore$ rm -frv terminal-velocity
+terminal-velocity/.DS_Store
+terminal-velocity/.git/COMMIT_EDITMSG
+terminal-velocity/.git/config
+terminal-velocity/.git/description
+terminal-velocity/.git/HEAD
+terminal-velocity/.git/hooks/applypatch-msg.sample
+terminal-velocity/.git/hooks/commit-msg.sample
+terminal-velocity/.git/hooks/post-update.sample
+terminal-velocity/.git/hooks/pre-applypatch.sample
+terminal-velocity/.git/hooks/pre-commit.sample
+terminal-velocity/.git/hooks/pre-push.sample
+terminal-velocity/.git/hooks/pre-rebase.sample
+terminal-velocity/.git/hooks/pre-receive.sample
+terminal-velocity/.git/hooks/prepare-commit-msg.sample
+terminal-velocity/.git/hooks/update.sample
+terminal-velocity/.git/hooks
+terminal-velocity/.git/index
+terminal-velocity/.git/info/exclude
+terminal-velocity/.git/info
+terminal-velocity/.git/logs/HEAD
+terminal-velocity/.git/logs/refs/heads/master
+terminal-velocity/.git/logs/refs/heads
+terminal-velocity/.git/logs/refs/remotes/origin/HEAD
+terminal-velocity/.git/logs/refs/remotes/origin/master
+terminal-velocity/.git/logs/refs/remotes/origin
+terminal-velocity/.git/logs/refs/remotes
+terminal-velocity/.git/logs/refs
+terminal-velocity/.git/logs
+terminal-velocity/.git/objects/11/99d04e7f4a568e98a2547302238ba1eb7a8702
+terminal-velocity/.git/objects/11
+terminal-velocity/.git/objects/2e/1d2845c7119316a76132c373ca1b412a09b1d0
+terminal-velocity/.git/objects/2e
+terminal-velocity/.git/objects/63/a750f7abaa0b7b142dc0d65557f5125837ebf3
+terminal-velocity/.git/objects/63/b49446cb08e124cb2469b93ee1720d0c476a91
+terminal-velocity/.git/objects/63
+terminal-velocity/.git/objects/6f/1487da78e9770e26b08643cf5e561e231f7f51
+terminal-velocity/.git/objects/6f
+terminal-velocity/.git/objects/a9/fc706d8bb4f4fb193e0d685e973516ae34c8a4
+terminal-velocity/.git/objects/a9
+terminal-velocity/.git/objects/b6/d006870d60cf484c4a3c89dee0a5f1da28869a
+terminal-velocity/.git/objects/b6
+terminal-velocity/.git/objects/d6/373b476d1785020557de8a26ae44433de5746b
+terminal-velocity/.git/objects/d6
+terminal-velocity/.git/objects/de/03458edc6b5ed8e23ea1b5513721941b3ee35f
+terminal-velocity/.git/objects/de
+terminal-velocity/.git/objects/e3/0a9d040bada9de35ddda5f8a5f6427be7b387f
+terminal-velocity/.git/objects/e3
+terminal-velocity/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+terminal-velocity/.git/objects/e6
+terminal-velocity/.git/objects/f2/e41eb67d31e3fff7ddf665899c25a534cde203
+terminal-velocity/.git/objects/f2
+terminal-velocity/.git/objects/info
+terminal-velocity/.git/objects/pack/pack-f43ae43385a177812029ef836cb77d4bb4a5c9cd.idx
+terminal-velocity/.git/objects/pack/pack-f43ae43385a177812029ef836cb77d4bb4a5c9cd.pack
+terminal-velocity/.git/objects/pack
+terminal-velocity/.git/objects
+terminal-velocity/.git/packed-refs
+terminal-velocity/.git/refs/heads/master
+terminal-velocity/.git/refs/heads
+terminal-velocity/.git/refs/remotes/origin/HEAD
+terminal-velocity/.git/refs/remotes/origin/master
+terminal-velocity/.git/refs/remotes/origin
+terminal-velocity/.git/refs/remotes
+terminal-velocity/.git/refs/tags
+terminal-velocity/.git/refs
+terminal-velocity/.git
+terminal-velocity/date.txt
+terminal-velocity/joke.txt
+terminal-velocity/list-projects-directory.txt
+terminal-velocity/listOfTxtFiles.txt/joke.txt
+terminal-velocity/listOfTxtFiles.txt/terminal-velocity.hosts.txt
+terminal-velocity/listOfTxtFiles.txt
+terminal-velocity/Projects
+terminal-velocity/README.md
+terminal-velocity/terminal-history-for-this-assignment.txt
+terminal-velocity/terminal-velocity
+terminal-velocity/terminal-velocity.hosts.txt
+terminal-velocity/where-is-my-java.txt
+terminal-velocity/workingDirectory.txt
+terminal-velocity
+Darions-MacBook-Pro:Projects darionmoore$ git clone git@github.com:GreedOrDie/terminal-velocity.git
+Cloning into 'terminal-velocity'...
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 15 (delta 1), reused 15 (delta 1), pack-reused 0
+Receiving objects: 100% (15/15), 6.78 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (1/1), done.
+Darions-MacBook-Pro:Projects darionmoore$ ls
+CarExample			monopoly-layout
+five-classes			terminal-velocity
+joke.txt			untitled
+list-projects-directory.txt	untitled1
+Darions-MacBook-Pro:Projects darionmoore$ ls > list-projects-directory.txt
+Darions-MacBook-Pro:Projects darionmoore$ ls
+CarExample			monopoly-layout
+five-classes			terminal-velocity
+joke.txt			untitled
+list-projects-directory.txt	untitled1
+Darions-MacBook-Pro:Projects darionmoore$ open Projects
+The file /Users/darionmoore/Projects/Projects does not exist.
+Darions-MacBook-Pro:Projects darionmoore$ cd ~
+Darions-MacBook-Pro:~ darionmoore$ open Projects
+Darions-MacBook-Pro:~ darionmoore$ cd terminal-velocity
+-bash: cd: terminal-velocity: No such file or directory
+Darions-MacBook-Pro:~ darionmoore$ cd Projects
+Darions-MacBook-Pro:Projects darionmoore$ cd terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd
+/Users/darionmoore/Projects/terminal-velocity
+Darions-MacBook-Pro:terminal-velocity darionmoore$ pwd > workingDirectory.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ date +%s > date.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ ls *.txt > list-of-txt-files.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ which java javac > where-is-my-java.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   date.txt
+	modified:   list-projects-directory.txt
+	deleted:    listOfTxtFiles.txt/joke.txt
+	deleted:    listOfTxtFiles.txt/terminal-velocity.hosts.txt
+	deleted:    terminal-velocity.hosts.txt
+	modified:   where-is-my-java.txt
+	modified:   workingDirectory.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	list-of-txt-files.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git add .
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   date.txt
+	new file:   list-of-txt-files.txt
+	modified:   list-projects-directory.txt
+	deleted:    listOfTxtFiles.txt/joke.txt
+	deleted:    listOfTxtFiles.txt/terminal-velocity.hosts.txt
+	deleted:    terminal-velocity.hosts.txt
+	modified:   where-is-my-java.txt
+	modified:   workingDirectory.txt
+
+Darions-MacBook-Pro:terminal-velocity darionmoore$ git commit -m "Hopefully I did everything right this time. Here is my second attempt at the terminal-velocity assignment"
+[master 47fb00b] Hopefully I did everything right this time. Here is my second attempt at the terminal-velocity assignment
+ 8 files changed, 17 insertions(+), 21 deletions(-)
+ create mode 100644 list-of-txt-files.txt
+ delete mode 100644 listOfTxtFiles.txt/joke.txt
+ delete mode 100644 listOfTxtFiles.txt/terminal-velocity.hosts.txt
+ delete mode 100644 terminal-velocity.hosts.txt
+Darions-MacBook-Pro:terminal-velocity darionmoore$ 

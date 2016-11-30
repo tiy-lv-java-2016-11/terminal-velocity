@@ -1,0 +1,5 @@
+date.txt
+joke.txt
+list-projects-directory.txt
+terminal-history-for-this-assignment.txt
+workingDirectory.txt
